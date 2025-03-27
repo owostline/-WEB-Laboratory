@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Margarine&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -41,7 +48,7 @@
             ></textarea>
           </div>
           <div>
-            <p>How visually appealing is this website?</p>
+            <p><b>How visually appealing is this website?</b></p>
             <input type="radio" id="1" name="rating" value="1" />
             <label for="1">1 - Very Unattractive</label><br />
             <input type="radio" id="2" name="rating" value="2" />
@@ -53,7 +60,7 @@
             <input type="radio" id="5" name="rating" value="5" />
             <label for="5">5 - Very Attractive</label><br />
           </div>
-          <div>
+          <div class="buttons">
             <input type="submit" value="Submit" />
             <input type="reset" />
           </div>

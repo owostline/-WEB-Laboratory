@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(assets/resume-bg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Azeret Mono", monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding: 3vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 2vh;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+main {
+  align-self: center;
+}
+
+h1 {
+  font-family: "Margarine", sans-serif;
+  font-size: 13vh;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+article {
+  background-color: white;
+  padding: 4vw;
+  margin-bottom: 2vw;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  background-color: black;
+  margin-bottom: 2vh;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+section {
+  margin-bottom: 3vh;
+}
+
+table {
+  border: 1px solid;
+  width: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  border-bottom: 1px solid #a0a0a0;
+  border-right: 1px solid #a0a0a0;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  margin-left: 2vw;
+}
+
+hr {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+footer {
+  background-color: #043856;
+  color: white;
+  text-align: center;
+  padding: 3vh;
+  position: relative;
+  width: 100%;
+}
