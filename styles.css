@@ -139,7 +139,7 @@ input[type="email"] {
 }
 
 textarea {
-  width: 100%;
+  width: 65vw;
 }
 
 .question {
