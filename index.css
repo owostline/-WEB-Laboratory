@@ -5,7 +5,7 @@
 
 body {
   min-height: 125vh;
-  background-image: url(assets/landing-bg.jpg);
+  background: url(assets/landing-bg.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
