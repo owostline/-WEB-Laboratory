@@ -79,6 +79,10 @@ section {
   margin-bottom: 3vh;
 }
 
+ol {
+  margin-left: 4vw;
+}
+
 footer {
   background-color: #043856;
   color: white;
@@ -86,8 +90,5 @@ footer {
   padding: 3vh;
   position: relative;
   width: 100%;
-}
-
-ol {
-  margin-left: 4vw;
+  font-size: small;
 }

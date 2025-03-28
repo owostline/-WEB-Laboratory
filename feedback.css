@@ -75,15 +75,6 @@ h2 {
   font-weight: 400;
 }
 
-footer {
-  background-color: #043856;
-  color: white;
-  text-align: center;
-  padding: 3vh;
-  position: relative;
-  width: 100%;
-}
-
 input[type="text"],
 input[type="email"] {
   padding: 2vh;
@@ -126,4 +117,14 @@ input[type="reset"] {
 
 .buttons {
   margin-top: 3vh;
+}
+
+footer {
+  background-color: #043856;
+  color: white;
+  text-align: center;
+  padding: 3vh;
+  position: relative;
+  width: 100%;
+  font-size: small;
 }
